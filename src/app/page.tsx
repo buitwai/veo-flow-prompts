@@ -43,7 +43,7 @@ export default function Home() {
               for Google Veo 3 & Flow
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Generate perfect video prompts with AI assistance. Create stunning videos with optimized prompts for Google's latest video generation models.
+              Generate perfect video prompts with AI assistance. Create stunning videos with optimized prompts for Google&apos;s latest video generation models.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">

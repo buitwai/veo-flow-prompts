@@ -19,9 +19,9 @@ export default function Home() {
             <div className="flex items-center space-x-6">
               <a href="#features" className="hover:text-purple-400 transition-colors">Features</a>
               <a href="#how-it-works" className="hover:text-purple-400 transition-colors">How it Works</a>
-              <button className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg transition-colors">
+              <a href="/auth" className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg transition-colors inline-block">
                 Get Started
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -46,10 +46,10 @@ export default function Home() {
               Generate perfect video prompts with AI assistance. Create stunning videos with optimized prompts for Google&apos;s latest video generation models.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
+              <a href="/auth" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center">
                 Start Creating
                 <ArrowRight className="ml-2 w-5 h-5" />
-              </button>
+              </a>
               <button className="border border-purple-400 hover:bg-purple-400/10 px-8 py-4 rounded-lg text-lg font-semibold transition-all">
                 View Examples
               </button>
@@ -242,10 +242,10 @@ export default function Home() {
             <p className="text-xl text-gray-300 mb-8">
               Join thousands of creators using AI to generate perfect video prompts
             </p>
-            <button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center mx-auto">
+            <a href="/auth" className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-4 rounded-lg text-lg font-semibold transition-all transform hover:scale-105 flex items-center justify-center mx-auto inline-flex">
               Get Started Free
               <Sparkles className="ml-2 w-5 h-5" />
-            </button>
+            </a>
           </motion.div>
         </div>
       </section>
